@@ -1,0 +1,35 @@
+#clockContainer {
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20210302161254/imgonlinecomuaCompressToSizeOmNATjUMFKw-300x300.jpg') no-repeat;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    transform-origin: bottom;
+    background: black;
+}
+
+#hour {
+    width: 1%;
+    height: 23%;
+    top: 26%;
+    left: 49%;
+}
+
+#minute {
+    width: 1%;
+    height: 28%;
+    left: 49%;
+    top: 21%;
+}
+
+#second {
+    width: 0.5%;
+    height: 30%;
+    left: 49.5%;
+    top: 19%;
+}
